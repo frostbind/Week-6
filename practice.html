@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practiceStylesheet.css">
+</head>
+<style>
+
+    header ::first-line{
+        text-transform: uppercase;
+    }
+    #outer {
+        border: 1px solid red;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #inner {
+        border: 1px solid green;
+    }
+    a {
+        color: green;
+    }
+    a:link {
+        color:green;
+    }
+    a:visited {
+        color:blue;
+    }
+    a:hover {
+        color:gold;
+    }
+    p ~ span {
+        color: red;
+    }
+</style>
+<body>
+    <header>
+        <h1>hello world</h1>
+    </header>
+    <div id="outer">
+        <p>First line is here</p>
+        <a href="https://www.surveymonkey.ca/r/GYNHB85">This Week's Material</a>
+        <div id="inner">
+            <p>Second line is here</p>
+        </div>
+        <span>Second line part 2 is here</span>
+    </div>
+    <span> Third line is here</span>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, saepe. Quis dicta sit aperiam reiciendis eligendi 
+        molestiae soluta facere? Quaerat quos, vero eveniet quod possimus vitae in iste cumque quasi!</p>
+    <span> Fiifth line is here</span>
+</body>
+</html>
